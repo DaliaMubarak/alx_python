@@ -15,7 +15,7 @@ if number>0:
 
 elif number<0:
     
-    last=0-last
+    last=-last
 
     if last==0:
          print("Last digit of",number,"is",last,"and is 0")
