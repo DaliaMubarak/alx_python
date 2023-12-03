@@ -2,12 +2,14 @@ def validate_password(password):
       if len(password) <8:
             return False
       
-        
+      else:  
 
-      for character in password:
+        for character in password:
              if character.isspace():
                   return False
-             if character.isupper() and character.islower() and character.isdigit():
+             elif character.isupper() and character.islower() and character.isdigit():
                   return True
+             else:
+                 return False
            
             
