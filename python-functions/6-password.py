@@ -5,9 +5,9 @@ def validate_password(password):
         
 
       for character in password:
-            if character.isupper() and character.islower() and character.isdigit():
-                  return True
-            if character.isspace():
+             if character.isspace():
                   return False
-            
+             if character.isupper() and character.islower() and character.isdigit():
+                  return True
+           
             
