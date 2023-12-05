@@ -5,7 +5,7 @@ def validate_password(password):
       else:  
 
         for character in password:
-             if character.isspace():
+             if any(character.isspace()):
                   return False
              elif any(character.isupper()) and any (character.islower()) and any(character.isdigit()):
                   return True
