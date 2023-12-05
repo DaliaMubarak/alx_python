@@ -7,7 +7,11 @@ def validate_password(password):
       else:
             for character in password:
              
-             if character.isupper() and character.islower() and character.isdigit():
+             if character.isupper():
+                  return True
+             if character.islower():
+                  return True 
+             if character.isdigit():
                   return True
              else:
                   return False
