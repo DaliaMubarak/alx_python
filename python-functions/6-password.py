@@ -11,6 +11,6 @@ def validate_password(password):
              elif ' ' in password:
                   return False
              else:
-                  return False
+                  return True
            
             
