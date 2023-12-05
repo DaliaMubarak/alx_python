@@ -6,11 +6,11 @@ def validate_password(password):
 
         for character in password:
              if character.isspace():
-                  return False
+                  return True
              elif character.isupper():
-                  return False
+                  return True
              if character.islower():
-                  return False
+                  return True
              if character.isdigit():
                   return True
              else:
