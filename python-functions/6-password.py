@@ -5,8 +5,8 @@ def validate_password(password):
       
       else:
             for character in password:
-             
-             if not (character.isupper() and character.islower() and character.isdigit()):
+                       
+             if not (any(character.isupper()) and any (character.islower()) and any (character.isdigit())):
                   return False
              elif ' ' in password:
                   return False
