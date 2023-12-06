@@ -3,6 +3,6 @@ a=1
 b=2
 if __name__=="__main__":
  from add_0 import add
- c=add(a,b)
+ 
 
-print("{}+{}={}".format(a,b,c))
+print("{}+{}={}".format(a,b,add(1,2)))
