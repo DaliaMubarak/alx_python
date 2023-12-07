@@ -6,8 +6,6 @@ def safe_print_division(a, b):
  else:
    return a/b
  
-a=15
-b=0
 
 
 try:
