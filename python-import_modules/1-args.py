@@ -9,7 +9,7 @@ elif a==1:
     print("1:{}".format(sys.argv[1]))
 else:
     print ("{} arguments:".format(a))
-for i in range (a):
+    for i in range (a):
       print("{}: {}".format(i,sys.argv[i]))
 
   
