@@ -8,7 +8,8 @@ for arg in sys.argv[1:]:
     print ("1 argument:")
     print("1: {}".format(arg))
   else:
-    print("{} arguments\n".format(a)"{}: {}".format(sys.argv.index(arg),arg))
+    print ("{} arguments\n".format(a))
+    print("{}: {}".format(sys.argv.index(arg),arg))
 
   
       
