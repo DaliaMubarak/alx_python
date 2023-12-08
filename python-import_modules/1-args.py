@@ -9,7 +9,7 @@ for arg in sys.argv[1:]:
     print("1: {}".format(arg))
   else:
     print ("{} arguments".format(a))
-
+    break
 for arg in sys.argv[1:]:
     if  a>1:
       print("{}: {}".format(sys.argv.index(arg),arg))
