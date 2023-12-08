@@ -1,6 +1,6 @@
 if __name__=="__main__":
    import sys
-for arg in sys.argv[]:
+for arg in sys.argv:
   a=len(sys.argv)-1
   if a==0:
     print ("0 arguments.")
