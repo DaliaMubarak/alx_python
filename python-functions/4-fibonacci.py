@@ -6,7 +6,8 @@ def fibonacci_sequence(n):
    return list()
  elif n==1:
     return [a]
- for i in range (2,n):
+ else:
+  for i in range (2,n):
        c=a+b
        a=b
        b=c
