@@ -3,4 +3,3 @@ def no_c(my_string):
     return lower.translate({ord("c"): ""})
         
         
-print(no_c())
